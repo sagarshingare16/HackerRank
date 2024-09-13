@@ -8,9 +8,7 @@ public class DayOfProgrammer {
         }else{
             return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
         }
-
     }
-
     public static String dayOfProgrammer(int year) {
         if(year == 1918){
             return "26.09.1918";
@@ -22,8 +20,6 @@ public class DayOfProgrammer {
         }
     }
     public static void main(String[] args) {
-
         System.out.println("Day of Programmer: " + dayOfProgrammer(1918));
-
     }
 }
